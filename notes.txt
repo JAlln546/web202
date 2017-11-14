@@ -1,0 +1,56 @@
+Cameras
+	compact
+	mirrorless
+	dslr
+	medium format
+	film / instant
+Lenses
+	mirrorless
+	dslr
+	medium format
+	cine
+Storage
+	Micro SD
+	SD / SDHC
+	CF Cards
+	CD & DVD
+	C Fast
+	SSD
+	XQD
+	Card Readers
+	Card Wallets
+	Hard Drives
+Accessories
+	camera
+		camera straps
+		cleaning & protection
+		color management
+	lenses
+		lens adapters
+		stepping rings
+		lens caps
+		lens hoods
+		lens cases
+		cleaning supplies
+		misc lens accessories
+		teleconverters & extension tubes
+	bags
+		bags
+			compact cases
+			shoulder bags
+			slings
+			backpacks
+			rolling cases
+			video bags
+		hard cases
+			hard cases
+			hard case accessories
+	tripods
+		monopods
+Learn
+	books
+		education
+		fine art
+		notes
+	software
+		

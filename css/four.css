@@ -1,0 +1,9 @@
+#accordion h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+#discount a, #s-h a {
+  text-decoration:none;
+  float:right;
+  color:black;
+}

@@ -1,0 +1,81 @@
+#camera1 {
+  float:left;
+
+  padding:0;
+  width:45%;
+  background:transparent;
+  overflow:hidden;
+}
+
+#camera1 img {
+  width:95%;
+  display:block;
+  margin:0 auto;
+}
+
+#camera1 ul {
+  display:inline-table;
+  overflow:hidden;
+  margin:10px auto;
+  width:98%;
+}
+
+#camera1 li {
+  width:24%;
+  float:left;
+  padding:1px;
+}
+
+#detail {
+  width:100%;
+  padding:0;
+  float:right;
+  background:transparent;
+}
+
+#detail ul {
+  width:98%;
+  overflow:hidden;
+  padding:2px;
+}
+
+#detail li {
+  float:left;
+  width:31%;
+  list-style-type:none;
+}
+
+#social ul {
+  width:25%;
+  overflow:hidden;
+  padding:2px;
+}
+
+#social li {
+  width:27%;
+  padding:3%;
+}
+
+#social img {
+  width:95%;
+  border:0;
+}
+
+#left {
+  float:left;
+  width:55%;
+  overflow:hidden;
+  background:transparent;
+}
+
+#left img {
+  width:90%;
+  display:block;
+  margin:0 auto;
+}
+
+#right {
+  float:right;
+  width:44%;
+
+}

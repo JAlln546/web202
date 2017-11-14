@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/blueberry.css" />
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<link rel="stylesheet" href="css/three.css">
+<link rel="stylesheet" hred="css/four.css">
+<!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+<title>PhotoWorks Seattle | </title>
+
+<!--Remy Sharp Shim -->
+<!--[if lte IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" >
+</script>
+<![endif]-->
+<script src="js/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+
+</head>
+
+<body>
+
+    <div id="top">
+        <a href="index.html">
+        <img src="images/camera.png" alt="Camera logo"><h1>photoworks</h1></a>
+
+        <form class="search">
+          <fieldset>
+            <input type="text" name="UserName" size="15" maxlength="30"><input type="submit" value="Search">
+          </fieldset>
+        </form>
+    </div>
+
+      <nav>
+          <ul>
+          <li><a href="">cameras</a></li>
+          <li><a href="">lenses</a></li>
+					<li><a href="">film</a></li>
+          <li><a href="">accessories</a></li>
+					<li><a class="learn" href="">learn</a></li>
+          </ul>
+
+      </nav>
+
+  <div id="crumbtrail">
+		<p><a href="index.html">home</a> / <a href="one.html">cart</a></p>
+	</div>
+
+
+<div id="container">
+
+		    <main>
+
+          <div id="accordion">
+
+        <h3>Login</h3>
+        <div id="login">
+          <form>
+          <label>User</label>
+          <input type="text" name="user" placeholder="user"><br>
+          <label>Password</label>
+          <input type="text" name="pass" placeholder="pass"><br>
+          <input type="submit" value="SUBMIT">
+        </form>
+        </div>
+
+        <h3>Register</h3>
+        <div id="register">
+
+          <label>First Name</label>
+          <input type="text" name="first" placeholder="Enter first name"><br>
+
+          <label>Last Name</label>
+          <input type="text" name="last" placeholder="Enter last name"><br>
+
+          <label>User</label>
+          <input type="text" name="user" placeholder="user"><br>
+
+          <label>Password</label>
+          <input type="text" name="pass" placeholder="pass"><br>
+
+          <label>Re-Type Password</label>
+          <input type="text" name="verify-pass"><br>
+
+          <input type="submit" value="SUBMIT">
+        </div>
+
+        <h3>Guest</h3>
+        <div id="guest">
+          <a href="six.html">Continue as Guest</a>
+        </div>
+</div>
+
+</main>
+
+
+    </div>
+
+
+
+	<div id="footer">
+
+		<ul>
+			<li class="sub"><h2>cameras</h2>
+				<ul>
+				<li><a href="#">standard compact</a></li>
+				<li><a href="#">zoom compact</a></li>
+				<li><a href="#">mirrorless</a></li>
+				<li><a href="#">DSLR</a></li>
+				<li><a href="#">medium format</a></li>
+			</ul></li>
+
+		<li class="sub"><h2>cameras</h2>
+			<ul>
+			<li><a href="#">standard compact</a></li>
+			<li><a href="#">zoom compact</a></li>
+			<li><a href="#">mirrorless</a></li>
+			<li><a href="#">DSLR</a></li>
+			<li><a href="#">medium format</a></li>
+		</ul></li>
+
+		<li class="sub"><h2>cameras</h2>
+			<ul>
+		<li><a href="#">standard compact</a></li>
+		<li><a href="#">zoom compact</a></li>
+		<li><a href="#">mirrorless</a></li>
+		<li><a href="#">DSLR</a></li>
+		<li><a href="#">medium format</a></li>
+	</ul></li>
+</ul>
+
+	</div>
+
+    <footer>
+			<p>Copyright &copy; 2017. All rights reserved. Web Design by <a href="www.jessallen.me">Jess Allen.</a></p>
+    </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+		$(function(){
+		    $('#accordion').accordion({
+					active:0,
+					collapsible:true,
+				});
+		    });
+		</script>
+
+    <script>
+    $(function(){
+        $('#tabs').tabs({
+          active:true,
+          collapsible:true,
+        });
+      //  $('#tab-1').tabs({ active: index });
+        });
+    </script>
+
+</body>
+</html>

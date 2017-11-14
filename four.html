@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/blueberry.css" />
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<link rel="stylesheet" href="css/three.css">
+<link rel="stylesheet" hred="css/four.css">
+<!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+<title>PhotoWorks Seattle | </title>
+
+<!--Remy Sharp Shim -->
+<!--[if lte IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" >
+</script>
+<![endif]-->
+<script src="js/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+
+</head>
+
+<body>
+
+    <div id="top">
+        <a href="index.html">
+        <img src="images/camera.png" alt="Camera logo"><h1>photoworks</h1></a>
+
+        <form class="search">
+          <fieldset>
+            <input type="text" name="UserName" size="15" maxlength="30"><input type="submit" value="Search">
+          </fieldset>
+        </form>
+    </div>
+
+      <nav>
+          <ul>
+          <li><a href="">cameras</a></li>
+          <li><a href="">lenses</a></li>
+					<li><a href="">film</a></li>
+          <li><a href="">accessories</a></li>
+					<li><a class="learn" href="">learn</a></li>
+          </ul>
+
+      </nav>
+
+  <div id="crumbtrail">
+		<p><a href="index.html">home</a> / <a href="one.html">cart</a></p>
+	</div>
+
+
+<div id="container">
+		    <main>
+          <table>
+            <tr>
+              <td width="325">Product</td>
+              <td>Price</td>
+              <td>Quantity</td>
+              <td>Subtotal</td>
+            </tr>
+          </table>
+          <hr>
+          <table>
+            <tr>
+              <td width="325"><table><tr><td>
+    <img src="images/mirrorless/fuji_xt2.jpg" alt="fuji xt2 model"></td><td>Fuji XT2 Mirrorless Digital Camera<br>MFR# 16519247</td></tr></table></td>
+    <td>$499.99</td><td>1</td><td>499.99</td>
+  </tr></table>
+  <hr>
+  <a class="main-a" href="#">EMPTY CART</a>
+  <hr style="width:100%;">
+  <a class="checkout" href="five.html">PROCEED TO CHECKOUT</a>
+  <p class="or"> OR </p>
+  <a class="checkout" href="#">CONTINUE SHOPPING</a>
+</main>
+
+<aside>
+  <div id="accordion">
+    <h3>Discount Code</h3>
+    <div id="discount">
+      <input type="text" name="discount"><br>
+      <a href="">APPLY</a>
+  </div>
+  <h3>Shipping & Handling</h3>
+  <div id="s-h">
+    <labal>Zip Code</label>
+      <input type="text" name="zipCode">
+      <a href="#">ESTIMATE</a>
+    </div>
+    <h3>Total</h3>
+    <div id="total">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>$497.99</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>$50.30</td>
+        </tr>
+      </table>
+      <hr>
+<h3 class="total">$548.29</h3>
+    </div>
+
+</aside>
+
+    </div>
+
+
+
+	<div id="footer">
+
+		<ul>
+			<li class="sub"><h2>cameras</h2>
+				<ul>
+				<li><a href="#">standard compact</a></li>
+				<li><a href="#">zoom compact</a></li>
+				<li><a href="#">mirrorless</a></li>
+				<li><a href="#">DSLR</a></li>
+				<li><a href="#">medium format</a></li>
+			</ul></li>
+
+		<li class="sub"><h2>cameras</h2>
+			<ul>
+			<li><a href="#">standard compact</a></li>
+			<li><a href="#">zoom compact</a></li>
+			<li><a href="#">mirrorless</a></li>
+			<li><a href="#">DSLR</a></li>
+			<li><a href="#">medium format</a></li>
+		</ul></li>
+
+		<li class="sub"><h2>cameras</h2>
+			<ul>
+		<li><a href="#">standard compact</a></li>
+		<li><a href="#">zoom compact</a></li>
+		<li><a href="#">mirrorless</a></li>
+		<li><a href="#">DSLR</a></li>
+		<li><a href="#">medium format</a></li>
+	</ul></li>
+</ul>
+
+	</div>
+
+    <footer>
+			<p>Copyright &copy; 2017. All rights reserved. Web Design by <a href="www.jessallen.me">Jess Allen.</a></p>
+    </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script>
+		$(function(){
+		    $('#accordion').accordion({
+					active:0,
+					collapsible:true,
+				});
+		    });
+		</script>
+    <script>
+    $(function(){
+        $('#specs').tabs({
+          active:true,
+          collapsible:false,
+        });
+        $('tab-1').tabs({ active: index });
+        });
+    </script>
+</body>
+</html>
